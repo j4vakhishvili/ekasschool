@@ -1,0 +1,66 @@
+.logo{
+    width: 390px;
+    height: auto;
+    margin-top: 325px;
+    margin-bottom: 145px;
+    margin-left: 75px;
+}
+
+input{
+    width: 540px;
+    display: block;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Main', sans-serif;
+}
+
+#key{
+    width: 500px;
+    height: 80px;
+    background-color: #E0E0E0;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+#submit{
+    height: 105px;
+    cursor: pointer;
+    background: #FE1645;
+    background-repeat: no-repeat;
+    background-position: 37% 51%;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.sectionOne{
+    width: 540px;
+    display: inline-block;
+    margin-right: 170px;
+}
+
+#submit:hover{
+    background: url(../icons/Icon\ feather-send.svg) #4dffc8;
+    transition: 0.3s;
+    filter: invert(1);
+    color: black;
+}
+
+.sectionTwo{
+    width: 830px;
+    height: 750px;
+    background: url(../illustrations/index-page-illustration-01.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    top: 105px;
+    position: absolute;
+}
+
+.container{
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}

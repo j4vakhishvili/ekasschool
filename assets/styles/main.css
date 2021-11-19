@@ -1,0 +1,157 @@
+header{
+    width: 100%;
+    height: 130px;
+    background-color: rgba(255,255,255,75%);
+    backdrop-filter: blur(15px);
+    position: fixed;
+}
+
+[data-theme="dark"] header{
+    background-color: rgb(15 15 15 / 75%);
+    transition: 0.3s;
+}
+
+.space{
+    height: 130px;
+}
+
+.container{
+    width: 1700px;
+    margin: auto;
+}
+
+.logo{
+    height: 35px;
+    width: auto;
+    margin-top: 44px;
+}
+
+.dark-mode {
+    float: right;
+    margin-top: 36px;
+    width: 55px;
+    height: 55px;
+    background: #0000000f;
+    background-position: 50%, 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 40px;
+    border-radius: 15px;
+}
+
+#darkSwitch {
+    width: 55px;
+    height: 55px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.contact{
+    font-family: 'Main';
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+    opacity: 0.4;
+    float: right;
+    line-height: 124px;
+    font-size: 30px;
+}
+
+.contact:hover{
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+[data-theme="dark"] .contact{
+    color: white;
+    transition: 0.3s;
+}
+
+.search{
+    margin-left: 90px;
+    width: 1090px;
+    height: 55px;
+    border-radius: 15px;
+    border: none;
+    background: #0000000f;
+    font-family: 'Main', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    top: 36px;
+}
+
+[data-theme="dark"] .dark-mode{
+    background: #ffffff33;
+    transition: 0.3s;
+}
+
+[data-theme="dark"] .search{
+    background: #ffffff33;
+    transition: 0.3s;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+}
+
+li a{
+    display: none;
+}
+
+.pdfBox{
+    width: 400px;
+    height: 495px;
+    background: #EAEAEA;
+    border-radius: 25px;
+    padding-top: 30px;
+}
+
+[data-theme="dark"] .pdfBox{
+    background: #eaeaea12;
+    transition: 0.3s;
+}
+
+.cover{
+    width: 345px;
+    height: 345px;
+    background: red;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    cursor: pointer;
+    background: linear-gradient(50deg, #FF0B3A, #FFAD08);
+    background-repeat: no-repeat;
+    background-position: 37% 51%;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.5s;
+    width: 345px;
+    height: 85px;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Main', sans-serif;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+[data-theme="dark"] button{
+    opacity: 0.85;
+    transition: 0.3s;
+}
+
+li:not(:last-child){
+    margin-right: 29px;
+}
+
+.collumnTwo{
+    margin-top: 35px;
+}
