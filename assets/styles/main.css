@@ -155,3 +155,54 @@ li:not(:last-child){
 .collumnTwo{
     margin-top: 35px;
 }
+
+@media only screen and (max-width: 750px){
+    .container{
+        width: 300px;
+    }
+    .logo {
+        height: 25px;
+        margin-top: 25px;
+    }
+    .search {
+        margin-left: 0;
+        width: 260px;
+        height: 45px;
+        top: 75px;
+        display: block;
+        border-radius: 12px;
+    }
+    .contact{
+        display: none;
+    }
+    .dark-mode, #darkSwitch{
+        width: 40px;
+        height: 40px;
+        margin-right: 0;
+        border-radius: 12px;
+        margin-top: 18px;
+    }
+    li:not(:last-child) {
+        margin-right: 0px;
+    }
+    .pdfBox {
+        width: 300px;
+        height: 380px;
+        margin-bottom: 20px;
+        padding-top: 22px;
+    }
+    .cover {
+        width: 265px;
+        height: 265px;
+    }
+    button{
+        width: 265px;
+        margin-left: 17px;
+        height: 65px;
+        font-size: 22px;
+        margin-top: 22px;
+    }
+    header, .space{
+        height: 140px;
+    }
+}
