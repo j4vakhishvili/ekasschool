@@ -24,6 +24,11 @@ input{
     margin-bottom: 20px;
 }
 
+[data-theme="dark"] #key{
+    background-color: rgb(15 15 15 / 75%);
+    transition: 0.3s;
+}
+
 #submit{
     height: 105px;
     cursor: pointer;
