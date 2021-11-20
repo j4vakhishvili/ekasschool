@@ -25,7 +25,7 @@ input{
 }
 
 [data-theme="dark"] #key{
-    background-color: rgb(15 15 15 / 75%);
+    background-color: rgb(44 44 44);
     transition: 0.3s;
 }
 
