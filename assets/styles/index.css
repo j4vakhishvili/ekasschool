@@ -67,6 +67,7 @@ input{
 
 h1{
     opacity: 0;
+    cursor: default;
 }
 
 @media only screen and (max-width: 750px){
