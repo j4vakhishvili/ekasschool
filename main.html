@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/styles/default.css">
     <link rel="stylesheet" href="assets/styles/main.css">
     <link rel="stylesheet" href="assets/styles/covers.css">
+    <link rel="stylesheet" href="assets/styles/contact.css">
 </head>
 <body>
     <header>
@@ -15,7 +16,8 @@
             <img src="assets/icons/logo.svg" alt="logo" class="logo">
 
             <input type="text" id="myInput" onkeyup="myFunction()" placeholder="what're we looking for?" title="Search PDF here..." class="search">
-            <a href="#" class="contact">Contact</a>
+            <a class="contact" onclick="openNav()" style="cursor: pointer;">Contact</a>
+            <div class="dark-mode contactBtn" onclick="openNav()"></div>
             <div class="dark-mode">
                 <input type="checkbox" class="form-check-input" id="darkSwitch" title="Dark Mode">
             </div>
@@ -86,8 +88,25 @@
             </div>
         </ul>
     </div>
+    <div class="contactForm" id="cForm">
+        <center>
+                <form action="https://formsubmit.co/edu-eka@gmail.com" class="cForm" id="ctFormEng" method="POST">
+                    <a class="contactTitle">Get in touch</a>
+                    <div class="close" onclick="closeNav()"></div>
+                    <hr>
+                    <input type="text" placeholder="your name..." class="name" name="name" required="">
+                    <input type="text" placeholder="your email..." class="email" name="email" required="">
+                    <textarea type="text" placeholder="is there anything that you want to tell me?" class="subject" name="message" required=""></textarea>
+                    <input type="submit" value="now send it ツ" id="contactBtn">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_subject" value="From EDU-EKA website!!">
+                    <input type="hidden" name="_next" value="https://www.edu-eka.tk/">
+                </form>
+        </center>
+    </div>
 
     <script src="assets/script/search.js"></script>
     <script src="assets/script/darkmode.js"></script>
+    <script src="assets/script/contact.js"></script>
 </body>
 </html>
