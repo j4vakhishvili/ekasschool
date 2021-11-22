@@ -128,13 +128,18 @@ hr{
 
 .contactBtn{
     display: none;
-    background: url(../icons/Icon\ contact.svg) #0000000f;
+    background: url(../icons/Icon\ feather-send.svg) #ffffff0f;
     cursor: pointer;
+    filter: invert(1);
+    background-repeat: no-repeat;
+    background-position: 50%;
 }
 
 [data-theme="dark"] .contactBtn{
-    background: url(../icons/Icon\ contact.svg) #9797972e;
-    filter: invert(1);
+    background: url(../icons/Icon\ feather-send.svg) #6868682e;
+    filter: invert(0.3);
+    background-repeat: no-repeat;
+    background-position: 50%;
     transition: 0.3s;
 }
 
