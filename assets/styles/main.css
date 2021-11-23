@@ -161,6 +161,11 @@ li:not(:last-child){
     margin-bottom: 35px;
 }
 
+.pdfBox button:hover{
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+
 @media only screen and (max-width: 1750px){
     header, .space{
         height: 100px;
