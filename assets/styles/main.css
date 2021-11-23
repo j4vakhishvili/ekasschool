@@ -157,8 +157,140 @@ li:not(:last-child){
     margin-right: 29px;
 }
 
-.collumnTwo{
-    margin-top: 35px;
+.collumn{
+    margin-bottom: 35px;
+}
+
+@media only screen and (max-width: 1750px){
+    header, .space{
+        height: 100px;
+    }
+    .logo{
+        margin-top: 30px;
+    }
+    .container {
+        width: 1500px;
+    }
+    .search{
+        width: 850px;
+        top: 20px;
+    }
+    .dark-mode{
+        margin-top: 20px;
+    }
+    .contact{
+        line-height: 95px;
+    }
+    .pdfBox {
+        width: 350px;
+        height: 445px;
+    }
+    .cover {
+        width: 295px;
+        height: 295px;
+    }
+    .pdfBox button{
+        width: 295px;
+    }
+    li:not(:last-child) {
+        margin-right: 29.3px;
+    }
+}
+
+@media only screen and (max-width: 1550px){
+    .container {
+        width: 1130px;
+    }
+    header, .space {
+        height: 80px;
+    }
+    .logo {
+        height: 25px;
+        margin-top: 28px;
+    }
+    .search {
+        margin-left: 55px;
+        height: 40px;
+        width: 650px;
+        border-radius: 10px;
+    }
+    .dark-mode, #darkSwitch{
+        height: 40px;
+        width: 40px;
+        border-radius: 10px;
+        margin-right: 25px;
+    }
+    .contact {
+        font-size: 22px;
+        line-height: 80px;
+    }
+    .pdfBox {
+        width: 270px;
+        height: 360px;
+        padding-top: 15px;
+    }
+    .cover {
+        width: 245px;
+        height: 245px;
+    }
+    .pdfBox button {
+        width: 245px;
+        font-size: 22px;
+        margin-top: 14px;
+        margin-left: 14px;
+    }
+    li:not(:last-child) {
+        margin-right: 12px;
+    }
+    .collumn {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 1150px){
+    .container {
+        width: 700px;
+    }
+    header, .space {
+        height: 120px;
+    }
+    .search {
+        margin-left: 0;
+        width: 614px;
+        height: 45px;
+        top: 60px;
+        display: block;
+        border-radius: 12px;
+        padding-left: 50px;
+    }
+    .pdfBox {
+        width: 330px;
+        height: 420px;
+        margin-bottom: 22px;
+    }
+    .cover {
+        width: 305px;
+        height: 305px;
+    }
+    .pdfBox button {
+        width: 305px;
+    }
+    li:not(:last-child) {
+        margin-right: 18px;
+    }
+    .collumn {
+        margin-bottom: 0px;
+    }
+    .logo{
+        margin-top: 20px;
+    }
+    .dark-mode {
+        margin-top: 10px;
+    }
+    .contact {
+        line-height: 60px;
+        margin-right: 20px;
+    }
 }
 
 @media only screen and (max-width: 750px){

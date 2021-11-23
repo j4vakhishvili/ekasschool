@@ -17,7 +17,7 @@
     height: 430px;
     background: white;
     border-radius: 20px;
-    margin-top: 250px;
+    margin-top: 25vh;
     position: inherit;
     padding-top: 20px;
 }
@@ -141,6 +141,12 @@ hr{
     background-repeat: no-repeat;
     background-position: 50%;
     transition: 0.3s;
+}
+
+@media only screen and (max-width: 1150px){
+    .contactForm form{
+        margin-top: 12vh;
+    }
 }
 
 @media only screen and (max-width: 750px){

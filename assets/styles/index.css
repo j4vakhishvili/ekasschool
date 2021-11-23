@@ -55,7 +55,7 @@ input{
 }
 
 .sectionTwo{
-    width: 830px;
+    width: 750px    ;
     height: 750px;
     background: url(../illustrations/index-page-illustration-01.svg);
     background-repeat: no-repeat;
@@ -75,6 +75,68 @@ h1{
     cursor: default;
 }
 
+@media only screen and (max-width: 1570px){
+    .logo{
+        margin-top: 210px;
+        width: 355px;
+        margin-left: 60px;
+    }
+    .sectionTwo{
+        width: 600px;
+        height: 600px;
+        top: 125px;
+    }
+    .sectionOne{
+        margin-right: 80px;
+        width: 415px;
+    }
+    .container {
+        width: 1100px;
+    }
+    #key {
+        width: 430px;
+    }
+    input {
+        width: 470px;
+    }
+}
+
+@media only screen and (max-width: 1150px){
+    .container {
+        width: 700px;
+    }
+    .sectionOne {
+        margin-right: 0;
+        width: 100%;
+    }
+    #key {
+        width: 660px;
+        position: fixed;
+        bottom: 180px;
+    }
+    input {
+        width: 700px;
+    }
+    .logo{
+        margin: 0;
+        position: fixed;
+        bottom: 310px;
+    }
+    #submit{
+        position: fixed;
+        bottom: 80px;
+    }
+    .sectionTwo {
+        width: 500px;
+        height: 500px;
+        position: fixed;
+        bottom: 385px;
+        top: auto;
+        display: block;
+        left: 19%;
+    }
+}
+
 @media only screen and (max-width: 750px){
     .sectionTwo{
         width: 300px;
@@ -83,6 +145,7 @@ h1{
         bottom: 260px;
         top: auto;
         display: block;
+        left: auto;
     }
     .container{
         width: 300px;
