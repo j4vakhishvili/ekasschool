@@ -159,6 +159,7 @@ li:not(:last-child){
 
 .collumn{
     margin-bottom: 35px;
+    display: inline-block;
 }
 
 .pdfBox button:hover{
