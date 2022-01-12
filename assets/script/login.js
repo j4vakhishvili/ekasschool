@@ -5,7 +5,7 @@ function validate(){
     var keyIDthree = "admin";
 
     if(key == keyIDone || key == keyIDtwo || key == keyIDthree){
-        window.location.href='main.html';
+        window.location.href='main';
         return false;
     } else{
         alert("Wrong key");
